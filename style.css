@@ -23,6 +23,22 @@ body {
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 
+.day-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.5px;
+}
+
 h1 {
     text-align: center;
     color: #333;
