@@ -198,6 +198,20 @@ h1 {
     font-weight: 600;
 }
 
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer strong {
+    color: #667eea;
+    font-weight: 600;
+}
+
 @media (max-width: 480px) {
     .container {
         padding: 20px;
