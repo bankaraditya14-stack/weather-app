@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="cityInput" 
+                placeholder="Enter city name..." 
+                autocomplete="off"
+            >
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="loading" class="loading hidden">Loading...</div>
+        <div id="error" class="error hidden"></div>
+
+        <div id="weather-info" class="weather-info hidden">
+            <div class="weather-header">
+                <h2 id="city-name"></h2>
+                <p id="date"></p>
+            </div>
+
+            <div class="weather-main">
+                <div class="temp-section">
+                    <img id="weather-icon" src="" alt="Weather icon">
+                    <div class="temp-display">
+                        <span id="temperature" class="temp"></span>
+                        <span class="unit">°C</span>
+                    </div>
+                </div>
+                <p id="description" class="description"></p>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-item">
+                    <span class="label">Feels Like</span>
+                    <span id="feels-like" class="value"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Humidity</span>
+                    <span id="humidity" class="value"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Wind Speed</span>
+                    <span id="wind-speed" class="value"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Pressure</span>
+                    <span id="pressure" class="value"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
