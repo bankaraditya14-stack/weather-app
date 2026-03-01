@@ -73,3 +73,6 @@ The app is fully responsive and works on:
 ## License
 
 This project is free to use and modify for educational purposes.
+
+## link of project
+https://bankaraditya14-stack.github.io/weather-app/
